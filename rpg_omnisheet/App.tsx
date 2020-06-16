@@ -1,8 +1,10 @@
 import React from 'react';
 import { Text } from 'react-native';
 
+import Home from './src/pages/Home';
+
 export default function App() {
 	return (
-		<Text>Open up App.tsx to start working on your app!</Text>
+		<Home/>
 	);
 }
